@@ -1,0 +1,27 @@
+.table{
+    position: absolute;
+    top: 100px;
+    left: 400px;
+}
+
+.cel-color1{
+    background-color: #000000;
+}
+
+.cel-color2{
+    background-color: #ffffff
+}
+
+#horse{
+    position: absolute;
+    top: 10px;
+    left: 70px;
+    animation: horse 10s infinite;
+}
+
+
+@keyframes horse{
+0%{top: 10px; left: 75px}
+50%{top: 135px; left: 75px;}
+100%{top: 135px; left: 135px;}
+}
