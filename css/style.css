@@ -16,12 +16,29 @@
     position: absolute;
     top: 10px;
     left: 70px;
-    animation: horse 10s infinite;
+    animation: horse 16s infinite;
 }
 
 
 @keyframes horse{
-0%{top: 10px; left: 75px}
-50%{top: 135px; left: 75px;}
-100%{top: 135px; left: 135px;}
+6%{top: 10px; left: 75px}
+12%{top: 135px; left: 75px;}
+18%{top: 135px; left: 135px;}
+25%{top: 260px; left: 135px;}
+31%{top: 260px; left: 200px;}
+36%{top: 380px; left: 200px;}
+42%{top: 380px; left: 255px;}
+48%{top: 445px; left: 255px;}
+54%{top: 445px; left: 385px;}
+60%{top: 445px; left: 255px;}
+66%{top: 380px; left: 255px;}
+72%{top: 380px; left: 200px;}
+78%{top: 260px; left: 200px;}
+84%{top: 260px; left: 135px;}
+90%{top: 135px; left: 135px;}
+95%{top: 135px; left: 75px;}
+100%{top: 10px; left: 75px}
+
+
+
 }
