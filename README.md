@@ -1,2 +1,2 @@
 # xadrez-keyframe
-Usando keyframe no tabuleiro de xadrez
+Utilizando keyframe no tabuleiro de xadrez
