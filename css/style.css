@@ -1,7 +1,13 @@
-.table{
+.loc-table{
     position: absolute;
     top: 100px;
-    left: 400px;
+    left: 450px;
+}
+
+.table{
+    border: 5px solid #000000;
+    height: 500px;
+    width: 500px;
 }
 
 .cel-color1{
@@ -16,29 +22,26 @@
     position: absolute;
     top: 10px;
     left: 70px;
-    animation: horse 16s infinite;
+    animation: horse 14s infinite;
 }
 
 
 @keyframes horse{
-6%{top: 10px; left: 75px}
-12%{top: 135px; left: 75px;}
-18%{top: 135px; left: 135px;}
-25%{top: 260px; left: 135px;}
-31%{top: 260px; left: 200px;}
-36%{top: 380px; left: 200px;}
-42%{top: 380px; left: 255px;}
-48%{top: 445px; left: 255px;}
-54%{top: 445px; left: 385px;}
-60%{top: 445px; left: 255px;}
-66%{top: 380px; left: 255px;}
-72%{top: 380px; left: 200px;}
-78%{top: 260px; left: 200px;}
-84%{top: 260px; left: 135px;}
-90%{top: 135px; left: 135px;}
-95%{top: 135px; left: 75px;}
-100%{top: 10px; left: 75px}
-
-
-
+0%{top: 10px; left: 75px}
+6%{top: 135px; left: 75px;}
+12%{top: 135px; left: 135px;}
+18%{top: 260px; left: 135px;}
+24%{top: 260px; left: 200px;}
+30%{top: 380px; left: 200px;}
+36%{top: 380px; left: 255px;}
+42%{top: 445px; left: 255px;}
+48%{top: 445px; left: 385px;}
+54%{top: 445px; left: 255px;}
+60%{top: 380px; left: 255px;}
+66%{top: 380px; left: 200px;}
+72%{top: 260px; left: 200px;}
+78%{top: 260px; left: 135px;}
+84%{top: 135px; left: 135px;}
+90%{top: 135px; left: 75px;}
+100%{top: 10px; left: 75px;}
 }
